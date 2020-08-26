@@ -7,7 +7,6 @@ const Header = () => {
             <header className="header" className="alt">
                 <h1>Marketing app</h1>
                 <nav>
-                    <Link to="#menu">Menu</Link>
                 </nav>
             </header>
             <nav className="menu">
@@ -19,7 +18,6 @@ const Header = () => {
                         <NavLink to="/product" activeClassName="is-active">Product</NavLink>
                         <NavLink to="/contact" activeClassName="is-active">Contact</NavLink>
                     </ul>
-                    <Link href="#" className="close">Close</Link>
                 </div>
             </nav>
         </div>
