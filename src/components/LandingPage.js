@@ -1,9 +1,13 @@
 import React from 'react';
 
-const LandingPage = () => (
-    <div>
-        This is from my landing page component
-    </div>
-);
+const LandingPage = () => {
+    return (
+        <div>
+            <p>This is from the landing page</p>
+        </div>
+    )
+}
+
+
 
 export default LandingPage;
