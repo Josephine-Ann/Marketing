@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Link, NavLink, Route, Switch } from 'react-router-dom';
 import 'normalize.css/normalize.css'
 import './styles/styles.scss'
 
@@ -37,6 +37,10 @@ const NotFoundPage = () => (
 const Header = () => (
     <header>
         <h1>Marketing App</h1>
+        <NavLink to="/" activeClassName="is-active">Home</NavLink>
+        <NavLink to="/about" activeClassName="is-active">About</NavLink>
+        <NavLink to="/contact" activeClassName="is-active">Contact</NavLink>
+        <NavLink to="/product" activeClassName="is-active">Product</NavLink>
     </header>
 )
 
