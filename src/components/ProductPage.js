@@ -9,7 +9,7 @@ const ProductPage = () => {
                         <div className="inner">
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-8 col-12-medium">
+                                    <div >
                                         <div id="content">
 
 
@@ -21,7 +21,7 @@ const ProductPage = () => {
 
                                                 <span className="image featured"><img src="images/pic08.jpg" alt="" /></span>
 
-                                                <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+                                                <p className="feature-paragraph">Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
                                                 Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
                                                 Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
 													consequat etiam lorem ipsum dolor sit amet nullam.</p>
