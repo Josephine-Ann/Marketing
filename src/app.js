@@ -11,14 +11,11 @@ import './styles/styles.scss'
 
 const store = configureStore();
 
-store.dispatch(addFeature({ description: 'Coolest socks ever', name: 'Socks', price: 2 }))
-store.dispatch(addFeature({ description: 'Coolest t-shirt ever', name: 'T-shirt', price: 2 }))
-store.dispatch(addFeature({ description: 'Coolest jeans ever', name: 'Jeans', price: 2 }))
-store.dispatch(addPurchase({ price: 2, name: 'jeans', size: 'big', date: 2 }))
+const jsx = (
+    <Provider store={store}>
+        <AppRouter />
+    </Provider>
+);
 
-store.dispatch(setTextFilter('socks'))
-const state = store.getState();
-console.log(state);
-
-ReactDOM.render(AppRouter, document.getElementById('app'));
+ReactDOM.render(jsx, document.getElementById('app'));
 
