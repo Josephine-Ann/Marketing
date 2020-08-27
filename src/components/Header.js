@@ -16,7 +16,7 @@ const Header = () => (
                 <ul className="links">
                     <li><NavLink to="/" activeClassName="is-active">Home</NavLink></li>
                     <li><NavLink to="/about" activeClassName="is-active">About</NavLink></li>
-                    <li><NavLink to="/product" activeClassName="is-active">Product</NavLink></li>
+                    <li><NavLink to="/product" activeClassName="is-active">Products</NavLink></li>
                     <li><NavLink to="/contact" activeClassName="is-active">Contact</NavLink></li>
                 </ul>
                 <a href="#" className="close">Close</a>
