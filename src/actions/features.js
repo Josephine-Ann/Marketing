@@ -8,7 +8,7 @@ export const addFeature = (
     } = {}
 ) => ({
     type: 'ADD_FEATURE',
-    expense: {
+    feature: {
         id: uuid(),
         name,
         description,
