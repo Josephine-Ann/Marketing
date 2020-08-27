@@ -2,14 +2,14 @@ import React from 'react';
 
 const ProductPage = () => {
     return (
-        <body className="right-sidebar is-preload">
+        <div className="right-sidebar is-preload">
             <div id="page-wrapper">
                 <div id="main-wrapper">
                     <div className="wrapper style2">
                         <div className="inner">
                             <div className="container">
                                 <div className="row">
-                                    <div >
+                                    <div>
                                         <div id="content">
 
 
@@ -52,7 +52,10 @@ const ProductPage = () => {
                     </div>
                 </div>
             </div>
-        </body>
+
+
+
+        </div>
     );
 }
 
