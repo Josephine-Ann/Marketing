@@ -22,7 +22,6 @@ export const removeFeature = ({ id } = {}) => ({
     id
 });
 
-// EDIT_EXPENSE
 export const editFeature = (id, updates) => ({
     type: 'EDIT_FEATURE',
     id,

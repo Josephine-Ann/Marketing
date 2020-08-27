@@ -15,7 +15,6 @@ store.dispatch(addFeature({ description: 'Coolest t-shirt ever', name: 'T-shirt'
 store.dispatch(addFeature({ description: 'Coolest jeans ever', name: 'Jeans', price: 2 }))
 store.dispatch(setTextFilter('socks'))
 const state = store.getState();
-// const visibleProducts = getVisibleProducts(state.features, state.filters)
 console.log(state);
 
 ReactDOM.render(AppRouter, document.getElementById('app'));
